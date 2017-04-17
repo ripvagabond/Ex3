@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+#Header:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+#Header {
+	background-color: #FFE4B5;
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+		}
+#LeftPanel {
+	background-color: blue;
+	width : 25%;
+	float: left;
+	text-align: center;
+}
+#Content {
+	background-color: white;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#RightPanel {
+	background-color: red;
+	color: white;
+	width:25%;
+	float: left;
+	text-align: center;
+	
+}
+
+#Footer {
+	background-color: grey;
+	text-align: center;
+}
+#Footer:before {
+	clear: both;
+	content: "";
+	display: block;
+}
+#Header ul {
+	list-style-type: none;
+}
+
+.menu li {
+	float: left;
+}
+.menu li:hover {
+	background-color: red;
+	}
+.menu li {
+	border-right: 2px solid blue;
+	padding: 10px 30px 10px 30px;
+	}
+
